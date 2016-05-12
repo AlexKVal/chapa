@@ -2,7 +2,7 @@
   "name": "chapa",
   "version": "1.0.0",
   "description": "chapa's adventures",
-  "main": "animal.js",
+  "main": "index.js",
   "dependencies": {
     "facet": "^0.5.0",
     "faucet": "^0.0.1",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "tdd": "nodemon -q -x 'tape *-test.js | faucet'"
   },
   "author": "Irinka",
